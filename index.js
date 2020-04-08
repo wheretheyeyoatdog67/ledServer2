@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 require('dotenv').config();
-app.listen(8080, () => console.log("listening at 8080"));
+const port = process.env.PORT || 3000
+app.listen(port, () => console.log('listening at ${port}'));
 app.use(express.static('public'));
 app.use(express.json());
 let r = 250;

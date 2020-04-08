@@ -1,0 +1,13 @@
+{
+  "name": "ledserver",
+  "version": "1.0.0",
+  "description": "control my room lmao",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "ed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
